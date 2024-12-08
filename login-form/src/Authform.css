@@ -1,0 +1,121 @@
+body{
+   
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; 
+}
+.container{
+    background: radial-gradient(circle at 10% 20%, rgb(239, 246, 249) 0%, rgb(206, 239, 253) 90%);
+    display: flex;
+    flex-direction: column;
+    width:400px;
+    height:450px;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 3px 8px;
+}
+h2{
+    color:rgb(32, 32, 32);
+    
+}
+.buttons{
+    display: flex;
+    gap:10px;
+    width:90%;
+    height: 10%;
+    padding-top: 20px;
+  
+
+}
+
+.login{
+    font-weight: 700;
+    padding: 5px;
+    font-size: 17px;
+    border-radius: 5px;
+    cursor: pointer;
+    width:50%;
+    background: radial-gradient(465px at -15.1% -25%, rgb(17, 130, 193) 0%, rgb(67, 166, 238) 49%, rgb(126, 203, 244) 90.2%);
+    color:white;
+    outline:none;
+    border:2px solid gray;
+    
+
+}
+.signup{
+    font-weight: 700;
+    padding: 5px;
+    font-size: 17px;
+    border-radius: 5px;
+    cursor: pointer;
+    width:50%;
+    background: radial-gradient(465px at -15.1% -25%, rgb(17, 130, 193) 0%, rgb(67, 166, 238) 49%, rgb(126, 203, 244) 90.2%);
+    color:white;
+    outline:none;
+    border:2px solid gray;
+}
+.active{
+    background: #B8DCFF ;
+    color:rgb(44, 43, 43);
+    font-weight: 700;
+}
+.btn{
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 10px;
+    cursor: pointer;
+    width:96%;
+    background: linear-gradient(rgb(44, 43, 43) , rgb(17, 17, 17));
+    color:white;
+    font-weight: 500;
+    border:none;
+    outline:none;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.form{
+    width:90%;
+    height:90%;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+
+}
+
+.form form{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    
+
+}
+
+input{
+    width:90%;
+    outline:none;
+    border:none;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+input:focus{
+    border:2px solid rgb(27, 121, 138)
+}
+
+p{
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(82, 80, 80);
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.Toastify__toast-container {
+    z-index: 9999; /* Make sure toast is above other elements */
+  }
