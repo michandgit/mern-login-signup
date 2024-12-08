@@ -42,7 +42,7 @@ function Authform() {
     }
 
     try {
-      const url= 'http://localhost:8080/auth/signup'
+      const url= 'https://mern-login-signup-two.vercel.app/signup'
       const response = await fetch(url,{
         method:"POST",
         headers:{
@@ -78,7 +78,7 @@ function Authform() {
     }
 
     try {
-      const url= 'http://localhost:8080/auth/login'
+      const url= 'https://mern-login-signup-two.vercel.app/login'
       const response = await fetch(url,{
         method:"POST",
         headers:{
